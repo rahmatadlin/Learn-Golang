@@ -1,0 +1,15 @@
+package main
+
+import "fmt"
+
+func main() {
+	var (
+		nilaiAkhir = 90
+		absensi = 80
+		lulusNilaiAkhir bool = nilaiAkhir > 80
+		lulusAbsensi = absensi >= 80
+		lulus bool = lulusNilaiAkhir && lulusAbsensi
+	)
+
+	fmt.Println(lulus)
+}

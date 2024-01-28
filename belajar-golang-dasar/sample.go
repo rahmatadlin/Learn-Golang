@@ -7,5 +7,6 @@ import "fmt"
 // Nama function tidak boleh walaupun beda file
 func main() {
 	fmt.Println("Sample Go")
+	
 
 }
